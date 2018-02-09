@@ -1,0 +1,10 @@
+C:\Users\moshi\source\repos\Shpitzer\Shpitzer\bin\Debug\Shpitzer.exe.config
+C:\Users\moshi\source\repos\Shpitzer\Shpitzer\bin\Debug\Shpitzer.exe
+C:\Users\moshi\source\repos\Shpitzer\Shpitzer\bin\Debug\Shpitzer.pdb
+C:\Users\moshi\source\repos\Shpitzer\Shpitzer\obj\Debug\Shpitzer.csprojResolveAssemblyReference.cache
+C:\Users\moshi\source\repos\Shpitzer\Shpitzer\obj\Debug\Shpitzer.Form1.resources
+C:\Users\moshi\source\repos\Shpitzer\Shpitzer\obj\Debug\Shpitzer.Properties.Resources.resources
+C:\Users\moshi\source\repos\Shpitzer\Shpitzer\obj\Debug\Shpitzer.csproj.GenerateResource.Cache
+C:\Users\moshi\source\repos\Shpitzer\Shpitzer\obj\Debug\Shpitzer.csproj.CoreCompileInputs.cache
+C:\Users\moshi\source\repos\Shpitzer\Shpitzer\obj\Debug\Shpitzer.exe
+C:\Users\moshi\source\repos\Shpitzer\Shpitzer\obj\Debug\Shpitzer.pdb
