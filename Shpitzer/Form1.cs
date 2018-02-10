@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.IO;
 namespace Shpitzer
 {
 
@@ -17,6 +17,7 @@ namespace Shpitzer
         float r;
         int n;
         float PMT;
+
         public Form1()
         {
             InitializeComponent();
@@ -102,6 +103,30 @@ namespace Shpitzer
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             clearAll();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+           
+            string[] fileContent = tableToCSV().ToArray();
+
+            saveFileDialog1.ShowDialog();
+            if (saveFileDialog1.CheckPathExists)
+                File.WriteAllLines(saveFileDialog1.FileName+".csv", fileContent);
+        }
+
+        public List<string> tableToCSV()
+        {
+            List<string> toFile = new List<string>();
+            toFile.Add(label4.Text + "," + label5.Text + "," + label6.Text + "," + label7.Text + "," + label8.Text + "," + label9.Text + ",");
+
+            for(int i=0;i<listBox1.Items.Count;i++)
+            {
+                string toAdd = "";
+                toAdd = listBox1.Items[i] + "," + listBox2.Items[i] + "," + listBox3.Items[i] + "," + listBox4.Items[i] + "," + listBox5.Items[i] + "," + listBox6.Items[i];
+                toFile.Add(toAdd);
+            }
+            return toFile;
         }
     }
 }
